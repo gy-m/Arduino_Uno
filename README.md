@@ -3,13 +3,12 @@
 * [Overview](#Overview)
 * [Projcet structure](#Projcet-structure)
 * [Software and code](#Software-and-code)
+* [Additional Libraries](#Additional-Libraries)
 * [Hardware](#Hardware)
 * [Repository status](#Repository-status)
 
 ## Overview
-This Repository consist of two main parts:
-1. Components - Those are independent files that can be burned to the board and have specific hardware components that are in use.
-2. Projects - A collection of programs, dependant on the number of components, which are part of a general project.
+This repository is a collection of projects, which you can find in the "Projects" folder. Each project is independent and should run on a standard Arduino / ESP board according to the instructions in the "ReadMe" of the project.
 
 ## Project structure
 Every project has a "README.md" file which has the bellow information:
@@ -24,6 +23,9 @@ Every project has a "README.md" file which has the bellow information:
 
 ## Software and code
 Every project has its source code in the relevant folder.
+
+## Additional Libraries
+Some of the projects use "include" for additional libraries. The user can install the desired libraries using Arduino IDE, or use the "Libraries" folder and copy the needed library to the "library" default location: http://www.arduino.cc/en/Guide/Libraries
 
 ## Hardware
 * Boards - In case it does not mention otherwise, the board is Arduino Uno. 
